@@ -10,6 +10,7 @@ def directors_totals(nds)
     name = directors_database[row_index][:name]
     inner_index = 0
     name_total[name] = 0  
+      binding.pry
       while inner_index < directors_database[row_index][:movies].length do
         each_gross = directors_database[row_index][inner_index][:worldwide_gross]
         name_total[name] += each_gross
