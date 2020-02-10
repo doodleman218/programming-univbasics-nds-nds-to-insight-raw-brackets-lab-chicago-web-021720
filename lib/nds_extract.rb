@@ -19,13 +19,12 @@ def directors_totals(nds)
       end
       
     end
-
-
-
-
-
-
+  name_total
 end
+
+
+
+
 
 #   result = {}
 #   row_index = 0
