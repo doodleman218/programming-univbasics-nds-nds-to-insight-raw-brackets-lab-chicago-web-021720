@@ -4,7 +4,7 @@ require 'pry'
 
 
 def directors_totals(nds)
-  name_total = []
+  name_total = {}
   row_index = 0
     while row_index < directors_database.length
     name = [row_index][:name]
