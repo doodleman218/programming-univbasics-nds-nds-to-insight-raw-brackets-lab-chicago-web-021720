@@ -6,11 +6,11 @@ require 'pry'
 def directors_totals(nds)
   name_total = {}
   row_index = 0
-    while row_index < directors_database.length
+    while row_index < directors_database.length do
     name = directors_database[row_index][:name]
     inner_index = 0
     result[name] = 0  
-      while inner_index < directors_database[row_index][:movies].length
+      while inner_index < directors_database[row_index][:movies].length do
         each_gross = directors_database[row_index][inner_index][:worldwide_gross]
         name_total[name] += each_gross
         inner_index += 1
