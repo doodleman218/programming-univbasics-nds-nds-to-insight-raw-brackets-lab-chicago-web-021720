@@ -7,11 +7,11 @@ def directors_totals(nds)
   name_total = {}
   row_index = 0
     while row_index < directors_database.length
-    name = [row_index][:name]
+    name = directors_database[row_index][:name]
     inner_index = 0
       while inner_index < directors_database[row_index].length
-        
-
+        total_gross = 0
+        each_gross = directors_database[row_index][inner_index][]
 
 
 
