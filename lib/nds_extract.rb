@@ -11,7 +11,7 @@ def directors_totals(nds)
     inner_index = 0
       while inner_index < directors_database[row_index].length
         total_gross = 0
-        each_gross = directors_database[row_index][inner_index][]
+        each_gross = directors_database[row_index][inner_index][:worldwide_gross]
 
 
 
